@@ -160,7 +160,9 @@ margin-left: 93px;
 /* Блок загальної інформації */
 
 .specific {
-    margin: 94px auto;
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .specific-list {
@@ -195,7 +197,8 @@ margin-left: 93px;
 /* Зображення */
 
 .images {
-    margin: 0 auto 94px;
+    margin: 0 auto;
+    padding-bottom: 94px;
 }
 
 .section-image {
@@ -204,7 +207,7 @@ margin-left: 93px;
 
 .images-list {
     display: flex;
-    margin: 0 auto 94px;
+    margin: 0 auto;
 }
 
 .images-item + .images-item {
@@ -246,16 +249,21 @@ margin-left: 93px;
     background: #ffffff;
 }
 
+.workers-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .workers-name {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin: 0 auto;
+    padding-bottom: 10px;
 
     color: var(--title-text-color);
     font-weight: 500;
 }
 
 .workers-proff {
-    margin: 0 auto 30px;
+    margin: 0 auto;
 }
 
 .workers-name,
@@ -287,6 +295,10 @@ address {
     margin-top: 20px;
 }
 
+.footer-address-item + .footer-address-item {
+    margin-top: 9px;
+}
+
 .place {
     color: #FFFFFF;
     font-size: 14px;
@@ -312,7 +324,7 @@ address {
 .filter-list {
     display: flex;
     margin: 0 auto;
-    padding-bottom: 16px;
+    padding-bottom: 50px;
     justify-content: center;
 }
 
@@ -321,6 +333,9 @@ address {
 }
 
 .filter-btn {
+    padding: 6px 22px;
+    border-radius: 4px;
+
     cursor: pointer;
     color: #212121;
     background-color: #F5F4FA;
@@ -329,7 +344,6 @@ address {
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-    border-radius: 4px;
 }
 
 .filter-btn:hover,
@@ -352,7 +366,7 @@ address {
 
     background-color: #FFFFFF;
 
-    border: 1px solid #EEEEEE
+    border-bottom: 1px solid #EEEEEE
 }
 
 .poster-item:nth-child(3n) {
@@ -363,11 +377,16 @@ address {
     margin-bottom: 0px;
 }
 
+.poster-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+
 .poster-name {
-    margin-top: 20px;
-    margin-bottom: 4px;
-    margin-left: 24px;
     min-width: 322px;
+    margin: 0px auto;
+    padding-bottom: 4px;
 
     color: var(--title-text-color);
     font-weight: 700;
@@ -377,8 +396,7 @@ address {
 }
 
 .poster-category {
-    margin-bottom: 20px;
-    margin-left: 24px;
+    margin: 0 auto;
 
     color: var(--primary-text-color);
     font-size: 16px;
